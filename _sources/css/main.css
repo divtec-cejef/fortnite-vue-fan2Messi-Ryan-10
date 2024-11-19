@@ -2,7 +2,7 @@
 Règles générales
 *****************************************************/
 body {
-    background: url("../img/fortnite-convergence.jpg") no-repeat center center fixed;
+    background: url("../../public/img/fortnite-convergence.jpg") no-repeat center center fixed;
     background-size: cover;
     font: 1rem "Lato", Arial, sans-serif;
     color: #101014;
@@ -92,7 +92,7 @@ Liste des armes
 
 .liste-armes .image {
     position: relative;
-    background-image: url("../img/background-zeus.jpg");
+    background-image: url("../../public/img/background-zeus.jpg");
     background-size: cover;
 }
 
