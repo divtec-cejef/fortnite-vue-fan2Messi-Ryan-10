@@ -6,12 +6,11 @@
   <header>
     <nav>
       <ul class="navigation">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="presentation.html">Présentation de Fortnite</a></li>
-        <li><a href="nouvelle-carte.html">Nouvelle Carte</a></li>
+        <li><router-link to="_sources/index.html">Accueil</router-link></li>
+        <li><router-link to="_sources/presentation.html">Présentation de Fortnite</router-link></li>
+        <li><router-link to="_sources/nouvelle-carte.html">Nouvelle Carte</router-link></li>
       </ul>
     </nav>
-    <h1>Fortnite - Armes (Battle Royale)</h1>
   </header>
 </template>
 

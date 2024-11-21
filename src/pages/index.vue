@@ -1,52 +1,232 @@
 <template>
-  <!DOCTYPE html>
-  <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fortnite - Armes (Battle Royale)</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" type="image/x-icon" href="favicon.png" sizes="32x32">
-  </head>
-<body>
-  <main>
+<header>
+  <h1>Fortnite - Armes (Battle Royale)</h1>
+</header>
+<main>
     <ul class="liste-armes">
       <li>
         <div class="image">
-          <img src="../public/img/pistolet.webp" alt="Pistolet silencieux">
+          <img src="public/img/pistolet.webp" alt="Pistolet">
           <button>
             +
           </button>
         </div>
 
+        <div class="caracteristiques">
+          <div>
+            <div>23</div>
+            <div>Dégats</div>
+          </div>
+          <div>
+            <div>6.5</div>
+            <div>Cadence de tir</div>
+          </div>
+          <div>
+            <div>1.8</div>
+            <div>Rechargement</div>
+          </div>
+        </div>
 
+        <h2>Pistolet</h2>
+
+        <p>Le pistolet est une arme de poing polyvalente et rapide.</p>
+      </li>
+      <li>
+        <div class="image">
+          <img src="public/img/fusil-assault.webp" alt="Fusil d'assault">
+          <button>
+            +
+          </button>
+        </div>
+        <div class="caracteristiques">
+          <div>
+            <div>30</div>
+            <div>Dégats</div>
+          </div>
+          <div>
+            <div>5.5</div>
+            <div>Cadence de tir</div>
+          </div>
+          <div>
+            <div>2.3</div>
+            <div>Rechargement</div>
+          </div>
+        </div>
+
+        <h2>Fusil d'assault</h2>
+
+        <p>Le fusil d'assaut est une arme automatique à moyenne portée.</p>
+      </li>
+      <li>
+        <div class="image">
+          <img src="public/img/fusil-pompe.webp" alt="Fusil à pompe">
+          <button>
+            +
+          </button>
+        </div>
+        <div class="caracteristiques">
+          <div>
+            <div>90</div>
+            <div>Dégats</div>
+          </div>
+          <div>
+            <div>1</div>
+            <div>Cadence de tir</div>
+          </div>
+          <div>
+            <div>3</div>
+            <div>Rechargement</div>
+          </div>
+        </div>
+
+        <h2>Fusil à pompe</h2>
+
+        <p>Le fusil à pompe est une arme dévastatrice à courte portée.</p>
+      </li>
+      <li>
+        <div class="image">
+          <img src="public/img/arbalete.webp" alt="Arbalète">
+          <button>
+            +
+          </button>
+        </div>
+        <div class="caracteristiques">
+          <div>
+            <div>75</div>
+            <div>Dégats</div>
+          </div>
+          <div>
+            <div>0.8</div>
+            <div>Cadence de tir</div>
+          </div>
+          <div>
+            <div>2.5</div>
+            <div>Rechargement</div>
+          </div>
+        </div>
+
+        <h2>Arbalète</h2>
+
+        <p>L'arbalète est une arme à longue portée, idéale pour des attaques précises.</p>
+      </li>
+      <li>
+        <div class="image">
+          <img src="public/img/fusil-sniper.webp" alt="Fusil de sniper">
+          <button>
+            +
+          </button>
+        </div>
+        <div class="caracteristiques">
+          <div>
+            <div>105</div>
+            <div>Dégats</div>
+          </div>
+          <div>
+            <div>0.33</div>
+            <div>Cadence de tir</div>
+          </div>
+          <div>
+            <div>2.7</div>
+            <div>Rechargement</div>
+          </div>
+        </div>
+
+        <h2>Fusil de sniper</h2>
+
+        <p>Le fusil de sniper est une arme de précision pour des tirs à très longue portée.</p>
+      </li>
+      <li>
+        <div class="image">
+          <img src="public/img/lance-roquettes.webp" alt="Lance-roquettes">
+          <button>
+            +
+          </button>
+        </div>
+        <div class="caracteristiques">
+          <div>
+            <div>110</div>
+            <div>Dégats</div>
+          </div>
+          <div>
+            <div>0.75</div>
+            <div>Cadence de tir</div>
+          </div>
+          <div>
+            <div>3.5</div>
+            <div>Rechargement</div>
+          </div>
+        </div>
+
+        <h2>Lance-roquettes</h2>
+
+        <p>Le lance-roquettes cause des dégâts massifs avec ses explosions.</p>
+      </li>
+      <li>
+        <div class="image">
+          <img src="public/img/mitraillette.webp" alt="Mitraillette">
+          <button>
+            +
+          </button>
+        </div>
         <div class="caracteristiques">
           <div>
             <div>25</div>
             <div>Dégats</div>
           </div>
           <div>
-            <div>3.75</div>
+            <div>9</div>
             <div>Cadence de tir</div>
           </div>
           <div>
-            <div>1.3</div>
+            <div>2</div>
             <div>Rechargement</div>
           </div>
         </div>
 
-        <h2>Pistolet silencieux</h2>
+        <h2>Mitraillette</h2>
 
-        <p>Le pistolet silencieux est une arme de poing
-          qui inflige des dégâts modérés à courte portée. Il est silencieux
-          et peut être utilisé pour des attaques surprises.</p>
+        <p>La mitraillette est une arme automatique à courte portée avec une cadence de tir élevée.</p>
       </li>
     </ul>
   </main>
-</body>
-  </html>
+  <footer>
+    <h2>Mes objets</h2>
+    <ul class="mes-objets">
+      <li>
+        <img src="public/img/pistolet.webp" alt="Pistolet ">
+      </li>
+      <li>
+        <img src="public/img/pistolet.webp" alt="Pistolet ">
+      </li>
+      <li>
+        <img src="public/img/fusil-assault.webp" alt="fusil d'assault ">
+      </li>
+      <li>
+
+      </li>
+      <li>
+
+      </li>
+    </ul>
+    <p>© 2024 Epic Games - Fortnite</p>
+  </footer>
 </template>
 
-<script setup>
-  //
+<script setup lang="ts">
+import { useArmeStore } from "@/stores/armeStore";
+
+export default {
+  setup() {
+    const armeStore = useArmeStore();
+
+    // Charger les armes depuis le magasin
+    const armes = armeStore.armes;
+
+    return {
+      armes,
+    };
+  },
+};
 </script>
+<style>
+</style>
